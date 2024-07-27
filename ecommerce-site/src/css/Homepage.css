@@ -1,0 +1,31 @@
+.featured-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Space between grid items */
+    margin: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .product-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
